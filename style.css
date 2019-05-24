@@ -14,7 +14,6 @@ body {
   font-family: "Roboto Slab", sans-serif;
 }
 
-
 /* Header */
 header {
   background-color: #ffffff;
@@ -47,6 +46,15 @@ header .container .tagline {
 
 header nav {
   color: #757e84;
+}
+
+header nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a:hover {
+  color: #30cfac;
 }
 
 /* Desktop */
@@ -120,11 +128,17 @@ header nav {
   header .container {
     flex-direction: column-reverse;
     margin-top: 0;
+    justify-content: flex-start;
+  }
+
+  header nav {
+    display: none;
   }
 
   header .container .logo {
     height: 40%;
     justify-content: center;
+    align-items: flex-start;
   }
 
   header .container .logo img {
@@ -138,9 +152,7 @@ header nav {
     background-color: #F8FFF8;
   }
 
-  header nav {
-    display: none;
-  }
+
 }
 
 
