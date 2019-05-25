@@ -30,6 +30,7 @@ header .container .tagline {
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #b6c4ce;
 }
 
 header .container .logo {
@@ -44,6 +45,11 @@ header .container .nav {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  color: #757e84;
+}
+
+header .container .nav ul li:hover {
+  color: #30cfac;
 }
 
 header .container .nav ul {
