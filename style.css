@@ -20,6 +20,10 @@ a {
   color: inherit;
 }
 
+p {
+  line-height: 1.4rem;
+}
+
 /* Header */
 header {
   background-color: #fff;
@@ -95,6 +99,12 @@ header .container .nav ul li {
       background-color: #FFDDDD;
   }
 
+  /* Text area */
+  .text-area {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   /* Header */
   header .container {
     display: flex;
@@ -109,6 +119,11 @@ header .container .nav ul li {
 
   header .container .logo img {
     width: 80%;
+  }
+
+  /* Page title */
+  main .container .text-area p {
+    text-align: left;
   }
 
   /* Large image */
@@ -129,6 +144,17 @@ header .container .nav ul li {
     width: 100%;
     background-color: #FFF9E1;
     height: 100%;
+    margin: 0 auto;
+  }
+
+  /* Text style */
+  p {
+    text-align: left;
+  }
+
+  /* Text area */
+  .text-area {
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -162,6 +188,9 @@ header .container .nav ul li {
     margin-top: -0.5rem;
     text-align: center;
   }
+
+  /* Page title */
+
 
   /* Large image */
   main .img-large {
