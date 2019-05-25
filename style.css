@@ -92,6 +92,15 @@ header .container .nav ul li {
   line-height: 4rem;
 }
 
+/* Footer */
+footer {
+  position: relative;
+  top: 5rem;
+  height: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
 /* Desktop */
 @media only screen and (min-width: 941px) {
   .container {
@@ -212,6 +221,19 @@ header .container .nav ul li {
     background-color: #FFE8E8;
     justify-content: center;
     margin-top: -0.5rem;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    position: relative;
+    top: 7rem;
+    height: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  footer .central-area p {
     text-align: center;
   }
 
