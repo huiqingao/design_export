@@ -39,6 +39,10 @@ button {
 header {
   background-color: #fff;
   height: 4rem;
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 1000;
 }
 
 header .container .tagline {
@@ -132,6 +136,12 @@ header .container .nav ul li {
     width: 80%;
   }
 
+  /* Main */
+  main {
+    position: relative;
+    top: 4rem;
+  }
+
   /* Page title */
   main .container .central-area p {
     text-align: left;
@@ -204,7 +214,13 @@ header .container .nav ul li {
     margin-top: -0.5rem;
     text-align: center;
   }
-  
+
+  /* Main */
+  main {
+    position: relative;
+    top: 7rem;
+  }
+
   /* Large image */
   main .img-large {
     margin: 1rem auto;
