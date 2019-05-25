@@ -1,0 +1,178 @@
+body {
+  background-color: #EBECED;
+  font-size: 16px;
+  line-height: 1rem;
+  margin: 0;
+}
+
+
+/* Text style */
+.slab {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.sans {
+  font-family: "Muli", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  height: 4rem;
+}
+
+header .container .tagline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .container .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header .container .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header .container .nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+header .container .nav ul li {
+  margin-left: 1rem;
+}
+
+/* Desktop */
+@media only screen and (min-width: 871px) {
+  .container {
+    max-width: 75rem;
+    background-color: #FFF9E1;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* Grid system */
+  .col-10-4 {
+      width: 40%;
+      height: 100%;
+      background-color: #FFE8E8;
+  }
+
+  .col-10-2 {
+      width: 20%;
+      height: 100%;
+      background-color: #FFDDDD;
+  }
+
+  /* Header */
+  header .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header .container .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .container .logo img {
+    width: 80%;
+  }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 870px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Header */
+  header {
+    height: 7rem;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 1rem;
+  }
+
+  header .container .nav {
+    display: none;
+  }
+
+  header .container .logo {
+    width: 100%;
+    background-color: #FFDDDD;
+  }
+
+  header .container .logo img {
+    height: 3rem;
+  }
+
+  header .container .tagline {
+    width: 100%;
+    background-color: #FFE8E8;
+    justify-content: center;
+    margin-top: -0.5rem;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 空出来的格子 */
