@@ -24,17 +24,6 @@ p {
   line-height: 1.4rem;
 }
 
-/* UI patterns */
-button {
-  height: 3rem;
-  font-size: 1.2rem;
-  padding: 0 4rem;
-  border: 2px solid #30cfac;
-  color: #30cfac;
-  border-radius: 1rem;
-  font-family: "Roboto Slab", sans-serif;
-}
-
 /* Header */
 header {
   background-color: #fff;
