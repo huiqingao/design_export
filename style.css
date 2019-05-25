@@ -24,6 +24,17 @@ p {
   line-height: 1.4rem;
 }
 
+/* UI patterns */
+button {
+  height: 3rem;
+  font-size: 1.2rem;
+  padding: 0 4rem;
+  border: 2px solid #30cfac;
+  color: #30cfac;
+  border-radius: 1rem;
+  font-family: "Roboto Slab", sans-serif;
+}
+
 /* Header */
 header {
   background-color: #fff;
@@ -99,8 +110,8 @@ header .container .nav ul li {
       background-color: #FFDDDD;
   }
 
-  /* Text area */
-  .text-area {
+  /* Central area */
+  .central-area {
     width: 70%;
     margin: 0 auto;
   }
@@ -122,7 +133,7 @@ header .container .nav ul li {
   }
 
   /* Page title */
-  main .container .text-area p {
+  main .container .central-area p {
     text-align: left;
   }
 
@@ -134,6 +145,11 @@ header .container .nav ul li {
 
   main .img-large img {
     width: 100%;
+  }
+
+  main .button .central-area {
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -152,8 +168,8 @@ header .container .nav ul li {
     text-align: left;
   }
 
-  /* Text area */
-  .text-area {
+  /* Central area */
+  .central-area {
     width: 85%;
     margin: 0 auto;
   }
@@ -188,18 +204,21 @@ header .container .nav ul li {
     margin-top: -0.5rem;
     text-align: center;
   }
-
-  /* Page title */
-
-
+  
   /* Large image */
   main .img-large {
-    margin-top: 1rem;
+    margin: 1rem auto;
     width: 90%;
   }
 
   main .img-large img {
     width: 100%;
+  }
+
+  /* Button */
+  main .button .central-area {
+    display: flex;
+    justify-content: center;
   }
 
 }
